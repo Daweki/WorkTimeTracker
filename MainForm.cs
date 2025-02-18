@@ -119,7 +119,7 @@ namespace WorkTimeTracker
                 {
                     if (entry.TimeGenerated > DateTime.Now.AddHours(-6))
                     {
-                        Console.WriteLineMe($"Event ID: {entry.InstanceId}");
+                        Console.WriteLine($"Event ID: {entry.InstanceId}");
                         Console.WriteLine($"Time Generated: {entry.TimeGenerated}");
                         
                         //Console.WriteLine($"Message: {entry.Message}");
